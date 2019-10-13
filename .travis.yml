@@ -6,6 +6,7 @@ cache:
   - frontend/node_modules
 script:
   - cd frontend/
+  - yarn install
   - yarn test
   - yarn run build
 
