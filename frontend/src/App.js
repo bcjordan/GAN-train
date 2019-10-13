@@ -33,7 +33,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo}/>
+        <img alt="" src={logo}/>
         <Stage width={window.innerWidth} height={window.innerHeight}>
           <Layer>
             <Text text="Try click on rect" />
