@@ -5,6 +5,8 @@ import './App.css';
 import { Stage, Layer, Rect, Text } from 'react-konva';
 import Konva from 'konva';
 
+// Adding touch support: https://konvajs.org/docs/events/Mobile_Events.html
+
 class ColoredRect extends React.Component {
   state = {
     color: 'green'
