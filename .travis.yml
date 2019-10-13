@@ -4,6 +4,7 @@ node_js:
 cache:
   directories:
   - frontend/node_modules
+  yarn: true
 script:
   - cd frontend/
   - yarn install
