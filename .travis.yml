@@ -9,7 +9,7 @@ script:
   - cd frontend/
   - yarn install
   - yarn test
-  # Set CI to false to avoid linting errors from stopping build
+  # Set CI to false to avoid CRA's linting errors from stopping build
   - CI=false yarn run build
 
 deploy:
